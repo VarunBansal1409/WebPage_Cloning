@@ -1,0 +1,126 @@
+#section{
+    /* border: 2px solid; */
+    margin: auto;
+    margin-top: 7px;
+    width: 88%;
+    height: 538px;
+    padding: 80px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2B2A3C;
+}
+
+#section img{
+    height: 40px;
+    width: 165px;
+}
+
+#section img:hover{
+    cursor: pointer;
+}
+
+#section input{
+    width: 440px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+}
+
+#section input::placeholder{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", Arial;
+}
+
+#inb button{
+    height: 50px;
+    width: 50px;
+    background-color: #ffbade;
+    border: none;
+    border-radius: 12px;
+}
+
+#inb button:hover{
+    cursor: pointer;
+}
+
+#inb button i{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#inb{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#inb +div{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#inb+div:hover{
+    cursor: pointer;
+}
+
+#inb+div>strong:hover{
+    cursor: text;
+}
+
+#inb+div+button{
+    height: 60px;
+    width: 260px;
+    background-color: #ffbade;
+    font-size: 20px;
+    /* padding: 17px 47px; */
+    border-radius: 12px;
+    border: none;
+    font-weight: 600;
+    color: #111;
+}
+
+#inb+div+button:hover{
+    cursor: pointer;
+}
+
+#bg{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 44%;
+    position: absolute;
+    top: 127px;
+    right: 92px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-image: linear-gradient(90deg, rgb(43,42,60) 0%, rgba(43, 42 ,60, 0.5), rgba(43,42,60, 0.45)), url(../images/anw-min.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1000000;
+}
+
+#share , #share+p{
+    /* border: 2px solid; */
+    margin-left: 11.3%;
+}
+
+#share{
+    font-weight: 600;
+    font-size: 14px;
+        color: #ffbade;
+    font-family: "Poppins", Arial;
+    margin-top: 40px;
+}
+
+#share+p{
+    font-size: 12px;
+    color: #ccc;
+    font-weight: 400;
+    line-height: 22px;
+}

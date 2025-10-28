@@ -1,0 +1,29 @@
+#nav{
+    /* border: 2px solid; */
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 77.5%;
+}
+
+#nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    height: 60px;
+}
+
+#nav li{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    /* padding-bottom: 5px; */
+    font-family: "Poppins", Arial;
+}
+
+#nav li:hover{
+    color: #e9aac7;
+    cursor: pointer;
+}
