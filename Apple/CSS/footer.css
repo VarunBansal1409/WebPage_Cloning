@@ -1,0 +1,110 @@
+#footer{
+    background-color: #f5f5f7;
+    /* height: 2000px; */
+}
+
+#sub-foot{
+    /* border: 2px solid; */
+    margin: auto;
+    width: 64.5%;
+}
+
+#fs1{    
+    list-style: none;
+    font-size: 12px;
+    color: #0000008f;
+    font-family: 400;
+    letter-spacing: 0.2px;
+    line-height: 1.32;
+    margin-bottom: 10.5px;
+}
+
+#fs1 li{
+    padding-bottom: 9.6px;
+}
+
+#fs1 li a{
+    color: #000000b8;
+}
+
+#fnav{
+    display: flex;
+    justify-content: space-between;
+    color: #000000b8;
+    margin-bottom: 20px;
+
+}
+
+.fnavc ol{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.fnavc li{
+    padding-bottom: 12px;
+    width: 196px;
+}
+
+.foothead{
+    color: #000000c6;
+    font-weight: 600;
+}
+
+.foothead~li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#fnavb{
+    color: #0000008f;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+}
+
+#fnavb a{
+    color: #06c;
+}
+
+#bfoot{
+    display:flex;
+    letter-spacing: 0.3px;
+    margin-bottom: 4px;
+}
+
+
+#bfoot span{
+        color: #0000008f;
+        font-size: 12px;
+}
+
+#last-foot{
+    list-style: none;
+    display: flex;
+    gap: 7px;
+    font-size: 12px;
+    color: #000000b8;
+    margin-left: 30px;
+    margin-right: 280px;
+}
+
+#last-foot li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#last-foot+span{
+    font-size: 12px;
+    color: #000000b8;
+}
+
+#last-foot+span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.qaz:hover{
+    cursor: default;
+    text-decoration: none;
+}

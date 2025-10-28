@@ -1,0 +1,584 @@
+#section1{
+    /* border: 2px solid; */
+    height: 82vh;
+    margin-top:42px;
+    background-image: url(../Images/hero_bts_2025__kjxalx8t7ia2_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    fill: #007aff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#section1:hover{
+    cursor: pointer;
+}
+
+.bubble-copy{
+    color: #fff;
+}
+
+#section1 h2{
+    height: 6.8em;
+    /* border: 2px solid; */
+}
+
+#tab{
+    position: absolute;
+    right: 572px;
+    top: 109px;
+    z-index: 2;
+}
+#tab+ img{
+    position: absolute;
+    right: 600px;
+    top: 185px;
+    z-index: 1;
+}
+
+.bubble-copy-1{
+    font-size: 88px;
+    line-height: 1.1em;
+    padding: 15px;
+}
+
+#sub-section{
+    width: 261px;
+    height: 2.5em;
+    position: relative;
+    bottom: 7px;
+}
+
+.bubble-copy-2{
+    font-size: 48px;
+    font-weight: 700;
+    padding-top: 9px;
+}
+
+.bubble-copy-2 sup{
+    font-size: 31px;
+}
+
+#sub-section1{
+    width: 270px;
+}
+
+#sub-section1 img{
+    position: absolute;
+    top: 340px;
+    left: 615px;
+}
+
+.bubble-copy-3{
+    /* border: 2px solid black; */
+    width: 500px;
+    font-size: 85px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.bubble-copy-3 sup{
+    font-size: 30px;
+}
+
+#section1 button{
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid #06c;
+    padding: 11px 21px;
+    border-radius: 100px;
+    color: #06c;
+    position: relative;
+    top: 10px;
+    right: 7px;
+}
+
+#section1 button:hover{
+    color: #fff;
+    background-color: #0071e3;
+    cursor: pointer;
+}
+
+
+#section2{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 580px;
+    margin: 12px auto;
+    background-image: url(../Images/hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: -0.5px;
+}
+
+#section2:hover{
+    cursor: pointer;
+}
+
+#section2 h2{
+    font-size: 56px;
+    font-weight: 600px;
+    color: #1d1d1f;
+    margin-top: 45px;
+}
+
+#section2 p{
+    font-size: 28px ;
+    font-weight: 400;
+    color: #1d1d1f;
+    margin-top: 6px;
+}
+
+#section2 span{
+    font-size: 21px;
+    font-weight: 500;
+    color: transparent;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    margin-top: 30px;
+}
+
+#section2 div{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#section2 button{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 11px 21px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+}
+
+#section2 button:hover{
+    cursor: pointer;
+    background-color: #0675e5;
+}
+
+#section2 button+button:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+#section2 button+button{
+    background-color: transparent;
+    color: #06c;
+}
+
+#section3{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 580px;
+    background-image: url(../Images/hero_macbook_air_avail__fpm99qgohx2e_large.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: -0.5px;
+    margin-bottom: 12px;
+}
+
+#section3:hover{
+    cursor: pointer;
+}
+
+#section3 h2{
+    font-size: 56px;
+    font-weight: 600px;
+    color: #1d1d1f;
+    margin-top: 45px;
+}
+
+#section3 p{
+    font-size: 28px ;
+    font-weight: 400;
+    color: #1d1d1f;
+    margin-top: 6px;
+    text-align: center;
+}
+
+#section3 span{
+    font-size: 21px;
+    font-weight: 500;
+    color: transparent;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    margin-top: 270px;
+}
+
+#section3 div{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+#section3 button{
+    font-size: 17px;
+    font-weight: 400;
+    padding: 11px 21px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+}
+
+#section3 button+button{
+    background-color: transparent;
+    color: #06c;
+}
+
+#section3 button:hover{
+    cursor: pointer;
+    background-color: #0675e5;
+}
+
+#section3 button+button:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+#section4{
+    letter-spacing: -0.5px;
+    color: #f5f5f7;
+    text-align: center;
+}
+
+
+#fimg{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+
+}
+
+#fimg li{
+    flex: 1;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lfimg{
+    background-image: url(../Images/1l.jpg);
+    margin-left: 12px;
+}
+
+#lfimg,#rfimg,#lsimg,#rsimg,#ltimg,#rtimg:hover{
+    cursor: pointer;
+}
+
+#lfimg h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 53px;
+}
+
+#lfimg p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+#lfimg div{
+    margin-top: 16px;
+}
+
+#lfimg button{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+    margin: auto;
+}
+
+#lfimg button+button{
+    background-color: transparent;
+    color: #0090F7;
+    margin-left: 10px;
+}
+
+#lfimg button:hover{
+    cursor: pointer;
+    background-color: #0b77e3;
+}
+
+#lfimg button+button:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+#lfimg span{
+    font-size: 14px;
+    font-weight: 600;
+    color: transparent;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    position: relative;
+    top: 330px;
+    letter-spacing: 0px;
+}
+
+#rfimg{
+    background-image: url(../Images/1r.jpg);
+    margin-right: 12px;
+    color: #1d1d1f;
+}
+
+#rfimg h3{
+    margin-top: 53px;
+}
+
+#rfimg p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+#rfimg div{
+    margin-top: 16px;
+}
+
+#rfimg button{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+    margin: auto;
+}
+
+#rfimg button+button{
+    background-color: transparent;
+    color: #0090F7;
+    margin-left: 10px;
+}
+
+#rfimg button:hover{
+    cursor: pointer;
+    background-color: #0b77e3;
+}
+
+#rfimg button+button:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+#simg{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin: 12px auto;
+}
+
+#simg li{
+    flex: 1;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#lsimg{
+    background-image: url(../Images/2l.jpg);
+    margin-left: 12px;
+}
+
+#lsimg button{
+    background-color: #f5f5f7;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    padding: 8px 16px;
+    border-radius: 980px;
+    position: relative;
+    top: 500px;
+}
+
+#lsimg button:hover{
+    cursor: pointer;
+    background-color: #fff;
+}
+
+#rsimg{
+    background-image: url(../Images/2r.jpg);
+    margin-right: 12px;
+}
+
+#rsimg h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 375px;
+}
+
+#rsimg p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+#rsimg p sup{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+#rsimg div{
+    margin-top: 16px;
+}
+
+#rsimg button{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+    margin: auto;
+}
+
+#rsimg button+button{
+    background-color: transparent;
+    color: #0090F7;
+    margin-left: 10px;
+}
+
+#rsimg button:hover{
+    cursor: pointer;
+    background-color: #0b77e3;
+}
+
+#rsimg button+button:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+#timg{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+#timg li{
+    flex: 1;
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ltimg{
+    background-image: url(../Images/3l.jpg);
+    margin-left: 12px;
+}
+
+#ltimg h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 53px;
+}
+
+#ltimg p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+#ltimg div{
+    margin-top: 16px;
+}
+
+#ltimg button{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+    margin: auto;
+}
+
+#ltimg button+button{
+    background-color: transparent;
+    color: #0090F7;
+    margin-left: 10px;
+}
+
+#ltimg button:hover{
+    cursor: pointer;
+    background-color: #0b77e3;
+}
+
+#ltimg button+button:hover{
+    background-color: #0071e3;
+    color: white;
+}
+
+#ltimg span{
+    font-size: 14px;
+    font-weight: 600;
+    color: transparent;
+    background: linear-gradient(94deg, #0090F7, #BA62FC, #F2416B, #F55600);
+    background-clip: text;
+    position: relative;
+    top: 330px;
+    letter-spacing: 0px;
+}
+
+#rtimg{
+    background-image: url(../Images/3r.jpg);
+    margin-right: 12px;
+    color: #1d1d1f;
+}
+
+#rtimg h3{
+    margin-top: 53px;
+}
+
+#rtimg p{
+    font-size: 21px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+#rtimg div{
+    margin-top: 16px;
+}
+
+#rtimg button{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 8px 16px;
+    border-radius: 980px;
+    color: #fff;
+    background-color: #0071e3;
+    border: 1px solid #0071e3;
+    /* margin: auto; */
+}
+
+#rtimg button:hover{
+    cursor: pointer;
+    background-color: #0b77e3;
+}
