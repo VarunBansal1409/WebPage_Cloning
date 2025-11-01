@@ -1,0 +1,15 @@
+@import url(./nav.css);
+@import url(./homepage.css);
+@import url(./index.css);
+@import url(./info.css);
+@import url(./footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}

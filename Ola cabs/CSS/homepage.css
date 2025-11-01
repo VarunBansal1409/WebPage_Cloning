@@ -1,0 +1,157 @@
+#home-page{
+    height: 355px;
+    background-image: url(../Images/hero-banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+#home-page h1{
+    position: relative;
+    top: 75px;
+    left: 250px;
+    color: #fff;
+    font-size: 43px;
+}
+
+#button3{
+    height: 40px;
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 112px;
+}
+
+#button3 button{
+    height: inherit;
+    padding: 0 20px;
+    margin-left: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #000;
+    cursor: pointer;
+}
+
+#button3 button~button{
+    margin: 0;
+    border: none;
+    color: #000000b3;
+    cursor: pointer;
+}
+
+#location{
+    /* border: 2px solid green; */
+    width: 67.4%;
+    height: 104px;
+    margin: auto;
+    position: relative;
+    top: 112.3px;
+    background-color: #f2f4f6;
+    display: flex;
+    align-items: center;
+}
+
+#c-loc{
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    background-color: #fff;
+    height: 55.6px;
+    width: 309.7px;
+    display: flex;
+    align-items: center;
+    margin-left: 32px;
+}
+
+#c-loc span{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #92C83E;
+    border: none;
+    margin-left: 20px;
+}
+
+#c-loc input{
+    height: 32px;
+    width: 242.1px;
+    border: none;
+}
+
+#c-loc input::placeholder{
+    padding-left: 18px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+#s-line{
+    border: 1px solid #00000033;
+    width: 31.71px;
+}
+
+#e-loc{
+    border: 1px solid rgba(0, 0, 0, 0.219);
+    background-color: #fff;
+    height: 55.6px;
+    width: 309.7px;
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+}
+
+#e-loc span{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #E97550;
+    border: none;
+    margin-left: 20px;
+}
+
+#e-loc input{
+    height: 32px;
+    width: 242.1px;
+    border: none;
+}
+
+#e-loc input::placeholder{
+    padding-left: 18px;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+#search{
+    height: 56px;
+    width: 282px;
+    background-image: radial-gradient(127.68% 2996.56% at 12.65% 127.68%, #000000e9 0%, #222222 100%), url(../Images/ola_cabs_back.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    box-shadow: -3px 3px 0 #32c86e;
+    cursor: pointer;
+}
+
+#search span{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#search span+span{
+    color: #3CEF83;
+}
+
+#search img{
+    margin: 0 8px 0 60px;
+}
+
+

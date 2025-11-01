@@ -1,0 +1,58 @@
+#page3{
+    height: 100vh;
+    width: 100%;   
+    background-color: #2c2f3a;
+    display: flex;
+    justify-content: center;
+    gap: 145px;
+}
+
+#page3 div:first-child{
+    /* border: 2px solid ; */
+    height: fit-content;
+    position: relative;
+    top: 170px;
+    left: 40px;
+}
+
+#page3 img{
+    width: 528px;
+    position: relative;
+    top: 170px;
+}
+
+#page3 h1{
+    font-size: 51px;
+    color: #fff;
+    line-height: 1;
+}
+
+#page3 div div{
+    margin-top: 10px;
+    height: 10px;
+    width: 128px;
+    background-color: #ffb63897;
+    border-top: 1px solid #b9babeab;
+}
+
+#page3 p{
+    font-size: 26px;
+    color: #868b98;
+    padding-top: 52px;
+}
+
+#page3 button{
+    margin-top: 32px;
+    padding: 14px 40px;
+    font-size: 16px;
+    font-family: 500;
+    color: #101011;
+    background-color: #ffb738;
+    border-radius: 8px;
+    border: none;
+}
+
+#page3 button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 2px #363940cf;
+}

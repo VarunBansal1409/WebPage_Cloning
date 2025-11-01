@@ -1,0 +1,164 @@
+#info{
+    margin: 152px 0;
+    background-color: #f2f6e8;
+    height: 1095px;
+}
+
+#sub-info{
+    margin: auto;
+    width: 67.4%;
+    margin-bottom: 304px;
+    position: relative;
+    top: 152px;
+}
+
+#sub-info h1{
+    font-size: 41.5px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+}
+
+#minfo{
+    display: flex;
+    margin-top: 50px;
+}
+
+#minfo img{
+    width: 540.36px;
+    height: 320.98px;
+}
+
+#minfo img+div{
+    margin-left: 50px;
+}
+
+#minfo div div{
+    display: flex;
+    /* align-items: center; */
+    gap: 10px;
+}
+
+#minfo div div p{
+    font-size: 22px;
+    font-weight: lighter;
+}
+
+#minfo button{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px;
+    background-color: #16aa511a;
+    color: #16aa51;
+    border: none;
+}
+
+#minfo h4{
+    margin-top: 13px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#minfo ol{
+    display: flex;
+    list-style: none;
+}
+
+#minfo li{
+    height: 118px;
+    width: 128px;
+}
+
+#minfo ol img{
+    height: 58px;
+    width: 58px;
+}
+
+#minfo li p{
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+#einfo{
+    display: flex;
+    margin-top: 105px;
+    justify-content: center;
+    gap: 50px;
+}
+
+#einfo div{
+    margin-right:33px;
+}
+
+#einfo p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+#einfo h4{
+    font-size: 21px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+#einfo h3{
+    color: #16AA51;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#einfo+p{
+    text-align: end;
+    margin-top: 20px;
+    margin-right: 5px;
+    color: rgb(0 0 0 / 70%);
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#info2{
+    background-color: #f2f4ef;
+    height: 731.3px;
+    margin-bottom: 152px;
+}
+
+#sub-info2{
+    margin: auto;
+    width: 67.4%;
+    position: relative;
+    top: 152px;
+}
+
+#sub-info2 h1{
+    font-size: 41.5px;
+    text-shadow: 1.152px 1.152px 0 #fff, 1.728px 1.728px 0 #92c83e;
+    margin-bottom: 56px;
+}
+
+#sub-info2 ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-info2 li>img{
+    width: 327.04px;
+    height: 248.5px;
+    cursor: pointer;
+}
+
+#sub-info2 h4{
+    font-size: 19px;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+#sub-info2 span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #16aa51;
+    cursor: pointer;
+}
+

@@ -1,0 +1,85 @@
+footer{
+    background-color: #f3f4f6;
+    height: 425px;
+}
+
+#sub-footer{
+    position: relative;
+    top: 152px;
+}
+
+#ufoot{
+    margin: auto;
+    width: 67.4%;
+    display: flex;
+}
+
+
+#ufoot ol{
+    list-style: none;
+    margin-right: 10px;
+}
+
+#ufoot ol~ol{
+    margin-right: 50px;
+}
+
+#ufoot img{
+    margin-bottom: 8px;
+    margin-right: 25px;
+}
+
+#ufoot li{
+    font-size: 13px;
+    color: #000000;
+    margin-bottom: 15px;
+    font-weight: 600;
+    margin-right: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+#ola{
+    cursor: default;
+}
+
+hr{
+    width: 85%;
+    opacity: 0.3;
+    margin: auto;
+    margin-top: 24px;
+}
+
+#bfoot{
+    margin: 24px auto;
+    width: 67.4%;
+    display: flex;
+    align-items: center;
+}
+
+#bfoot p{
+    font-size: 11px;
+    letter-spacing: 0.3px;
+    color: #0000004d;
+    margin-right: 225px;
+}
+
+#bfoot a{
+    color: #00000066;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 40px;
+}
+
+#bfoot span{
+    font-size: 13px;
+    color: #333;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+#bfoot span:hover{
+    cursor: pointer;
+    color: #333333af;
+}
+

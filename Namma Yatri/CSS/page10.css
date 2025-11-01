@@ -1,0 +1,91 @@
+#page10{
+    /* border: 2px solid; */
+    height: 100vh;
+}
+
+#page10>div:first-child{
+    width: 74.9%;
+    margin: auto;
+}
+
+#page10 img+div{
+    position: relative;
+    bottom: 26px;
+    z-index: 5;
+}
+
+#page10 img+div h1{
+    font-size: 51px;
+    color: #2c2f3a;
+    line-height: 1;
+}
+
+#page10 img+div div{
+    margin-top: 10px;
+    height: 10px;
+    width: 128px;
+    background-color: #fad796;
+}
+
+#faq{
+    /* border: 2px solid; */
+    height: 634px;
+    position: relative;
+    bottom: 60px;
+    z-index: 0;
+    background-color: #f1f1f1;
+    
+}
+
+#sub-faq{
+    position: relative;
+    top: 65px;
+}
+
+#faq details{
+    /* border: 2px solid; */
+    width: 75%;
+    margin: auto;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    background-color: #e6e7eb;
+}
+
+details summary:first-child{
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 24px;
+    align-items: center;
+    /* height: inherit; */
+}
+
+#faq img{
+    height: 12px;
+    width: 12;
+}
+
+summary{
+    list-style-type: none;
+}
+
+summary p{
+    font-size: 17px;
+    font-weight: 600;
+    color: #454545;
+}
+
+summary+p{
+    font-size: 15px;
+    color: #6d7280;
+    padding: 0 24px 20px 24px;
+}
+
+details[open] img{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+summary:hover{
+    cursor: pointer;
+}
+

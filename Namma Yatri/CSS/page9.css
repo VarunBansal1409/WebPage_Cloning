@@ -1,0 +1,38 @@
+#page9{
+    border: 2px solid #fff;
+    height: 544.6px;
+    width: 74.9%;
+    margin: auto;
+}
+
+#page9 p{
+    margin-top: 120px;
+    font-size: 17px;
+    color: #868b98;
+    letter-spacing: 7px;
+}
+
+#page9 div h1{
+    font-size: 51px;
+    color: #2c2f3a;
+    line-height: 1;
+}
+
+#page9 div h1+div{
+    margin-top: 10px;
+    height: 10px;
+    width: 128px;
+    background-color: #fad796;
+}
+
+#logos{
+    display: flex;
+    gap: 65px;
+    position: relative;
+    top: 28px;
+}
+
+#memberof{
+    position: relative;
+    top:160px;
+}

@@ -1,0 +1,98 @@
+#page6{
+    height: 100vh;
+    width: 100%;   
+    background-color: #2c2f3a;
+}
+
+#sub-page6{
+    margin: auto;
+    /* border: 2px solid #fff; */
+    height: fit-content ;
+    width: 75%;
+    position: relative;
+    top: 20px;
+}
+
+#page6 h1{
+    font-size: 51px;
+    color: #fff;
+    line-height: 1;
+    /* margin-top: 20px; */
+}
+
+#page6 h1+div{
+    margin-top: 10px;
+    height: 10px;
+    width: 128px;
+    background-color: #ffb63881;
+    border-top: 1px solid #b9babeab;
+}
+
+#page6 p{
+    font-size: 26px;
+    color: #868b98;
+    padding-top: 52px;
+}
+
+#boxes3{
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 75px;
+}
+
+#boxes3 div{
+    border: 1px solid #ffffffcc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff14;
+    border-radius: 8px;
+    padding: 32px 73px;
+}
+
+#boxes3 span:first-child{
+    font-size: 21px;
+    color: #868b98;
+}
+
+#boxes3 span:nth-child(2){
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+#boxes3 span:last-child{
+    font-size: 20px;
+    color: #53bb6f;
+    font-weight: 500;
+}
+
+#page6 svg{
+    height: 16px;
+    width: 16px;
+}
+
+#page6 button{
+    font-size: 16px;
+    padding: 12px 40px;
+    font-weight: 500;
+    border: 1px solid #b9babe;
+    color: #b9babe;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+#boxes3+div{
+    display: flex;
+    gap: 25px;
+}
+
+#page6 button:hover{
+    cursor: pointer;
+    box-shadow: 0px 2px 2px 2px #36394024;
+}
