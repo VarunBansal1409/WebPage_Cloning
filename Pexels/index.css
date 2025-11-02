@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Canva Sans,Helvetica Neue,Roboto,-apple-system,blinkmacsystemfont,sans-serif;
+}
+
+main{
+    background-image: linear-gradient(rgba(0,0,0,0.5)), url(./images/pexels-photo-20250808.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#nav{
+    /* border: 2px solid; */
+    height: 80px;
+}
+
+#sub-nav{
+    /* border: 2px solid; */
+    height: inherit;
+    width: 96.5%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#sub-nav svg{
+    fill: #fff;
+}
+
+#sub-nav div{
+    width: 368px;
+    height: 48px;
+    /* border: 2px solid #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#sub-nav div button{
+    font-size: 17px;
+    border: none;
+    height: 48px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+#exp{
+    padding: 12px 16px;
+    background: none;
+    color: #fff;
+    border-radius: 100px;
+
+}
+
+#exp i{
+    font-size: 12px;
+}
+
+#Lic{
+    padding: 13.5px 16px 12px;
+    background: none;
+    color: #fff;
+    border-radius: 100px;
+}
+
+#nt{
+    padding: 12px 16px;
+    border-radius: 100%;
+    background: none;
+    color: #fff;
+}
+
+#join{
+    padding: 1px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#nt:hover{
+    background-color: #0000005f;
+    cursor: pointer;
+}
+#exp:hover{
+    background-color: #0000005f;
+    cursor: pointer;
+}
+#Lic:hover{
+    background-color: #0000005f;
+    cursor: pointer;
+}
+
+#content{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 420px;
+    gap: 25px;
+}
+
+#content h1{
+    font-family: Canva Sans,Helvetica Neue,Roboto,-apple-system,blinkmacsystemfont,sans-serif;
+    color: #fff;
+}
+
+#content div{
+    /* border: 2px solid; */
+    height: 56px;
+    width: 630px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#photos{
+    height: 48px;
+    width: 138px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-size: 17px;
+}
+
+#photos:hover{
+    background-color: #ecebeb;
+    cursor: pointer;
+}
+
+#qaz{
+    font-size: 21px;
+    position: relative;
+    top: 4px;
+    color: rgb(150, 146, 146);
+}
+
+#photos i +i{
+    font-size: 12px;
+    color: rgb(150, 146, 146);
+    position: relative;
+    bottom: 2px;
+
+}
+
+#content div input{
+    height: 48px;
+    width: 398px;
+    border: none;
+    background: none;
+}
+
+#content div input::placeholder{
+    font-size: 17px;
+    color: rgb(126, 123, 123);
+    font-weight: 500;
+}
+
+
+#qwe{
+    height: 48px;
+    width: 50px;
+    margin: 2px;
+    font-size: 22px;
+    color: rgb(150, 146, 146);
+    background: none;
+    border: none;
+    padding-top: 3px;
+    border-radius: 10px;
+}
+
+#qwe:hover{
+    color: #424040;
+    cursor: pointer;
+    background-color: #ecebeb;
+}
+
+
+#opt{
+    /* border: 2px solid; */
+    height: 108px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+}
+
+#opt button{
+    font-size: 17px;
+    border-radius:100px;
+    padding: 15px;
+    height: 48px;
+    background-color: #000000;
+    border: none;
+    color: #fff;
+}
+
+#opt button~button{
+    background-color: #fff;
+    color: #4a4a4a;
+    font-weight: bold;
+}
+
+#opt button~button:hover{
+    color: #000000;
+    background-color: #f3efefb6;
+}
+
+#opt button:hover{
+    cursor: pointer;
+}
+
+#fsp{
+    /* border: 2px solid; */
+    height: 48px;
+    width: 96%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#fsp span{
+    font-size: 24px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+#fsp button{
+    border: 1px solid #d4d3d3;
+    font-size: 17px;
+    padding: 11px 20px;
+    border-radius: 13px;
+    background-color: #f9f7f7;
+}
+
+#fsp i{
+    font-size: 12px;
+}
+
+#fsp button:hover{
+    background-color: #f3f3f3;
+    border: 1px solid #424040;
+}
+
+#gallery{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    gap: 22px;
+}
+
+#gallery img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#gallery img:hover{
+    cursor: pointer;
+}
+
+#gallery1{
+    display: grid;
+    grid-template-columns: 471px;
+    grid-template-rows: 706px 837px 265px 706px 706px 703px;
+    grid-row-gap: 30px;
+}
+
+#gallery2{
+    display: grid;
+    grid-template-columns: 471px;
+    grid-template-rows: 265px 838px 707px 838px 838px;
+    grid-row-gap: 30px;
+}
+#gallery3{
+    display: grid;
+    grid-template-columns: 471px;
+    grid-template-rows: 589px 717px 707px 707px 838px;
+    grid-row-gap: 30px;
+}
