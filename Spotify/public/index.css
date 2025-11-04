@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: SpotifyMixUI,CircularSp,Helvetica,Arial,sans-serif;
+}
+
+#nav{
+    /* border: 2px solid; */
+    width: 100%;
+    height: 70px;
+}
+
+#sub-nav{
+    /* border: 2px solid blue; */
+    height: 70px;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+}
+
+#sub-nav span svg{
+    /* border: 2px solid red; */
+    height: 39px;
+    width: 118px;
+    position: absolute  ;
+    top: 17px;
+    left: 205px;
+    fill: white;
+    cursor: pointer;
+}
+
+#sub-nav>div>ol{
+    /* border: 2px solid green; */
+    height: 20px;
+    display: flex;
+    position: absolute;
+    right: 400px;
+    justify-content: space-between;
+    gap: 40px;
+    position: absolute;
+    top: 27px;
+    right: 230px;
+}
+#sub-nav>div>ol li{
+    list-style: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: white;
+}
+
+#sub-nav>div>ol li+li+li+li{
+    font-weight: 100;
+}
+
+#sub-nav>div>ol li+li+li+li+li{
+    color: #D9DADC;
+    font-weight: 600;
+}
+
+#sub-nav>div>ol li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#sub-nav>div>ol li+li+li+li:hover{
+    cursor: default;
+    color: #fff;
+}
+
+#sub-nav>div>ol li+li+li+li+li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.hp{
+    /* border: 2px solid; */
+    height: 480px;
+    width: 100%;
+    background-color: #B49BC8;
+    text-align: center;
+}
+
+.hp h1{
+    font-size: 40px;
+    position: relative;
+    top: 110px;
+    font-weight: bolder;
+}
+
+.hp h2{
+    font-weight: 400;
+    position: relative;
+    top: 145px;
+}
+
+.hp button{
+    height: 48px;
+    width: 162px;
+    text-transform: capitalize;
+    background-color: black;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    top: 180px;
+}
+
+.hp button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.hp p{
+    font-size: 11px;
+    line-height: 17px;
+    font-weight: 500;
+    position: relative;
+    top: 220px;
+}
+
+.hp p u{
+    cursor: pointer;
+}
+
+
+#sys{
+    /* border: 2px solid; */
+    text-align: center;
+    height: 575px;
+}
+
+#sys h1{
+    font-size: 40px;
+    position: relative;
+    top: 75px;
+}
+
+#sys ol{
+    /* border: 2px solid red; */
+    height: 280px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 53px;
+    list-style: none;
+    position: absolute;
+    top: 745px;
+    left: 230px;
+
+}
+
+#sys ol img{
+    height: 142px;
+    width: 142px;
+}
+
+#sys ol h3{
+    font-size: 21px;
+    position: relative;
+    top: 35px;
+}
+
+#sys ol p{
+    font-size: 16px;
+    position: relative;
+    top: 50px;
+    line-height: 25px;
+}
+
+#qna{
+    /* border: 2px solid; */
+    height: 638px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+#qna div h1{
+    /* border: 2px solid rebeccapurple; */
+    font-size: 40px;
+    position: relative;
+    top: 70px;
+    font-weight: 600;
+}
+
+#qna div h1 +  h3{
+    /* border: 2px solid red; */
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 200px;
+}
+
+    #qna div+div{
+    /* border: 2px solid blue; */
+    width: 75%;
+    margin: auto;
+    background-color: #fff;
+    height: 320px;
+    position: relative;
+}
+
+.both{
+    /* border: 2px solid #1ed760; */
+    /* height: 25%; */
+    text-align: left;
+}
+
+.que{
+    /* border: 1px solid black; */
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 900;
+    /* padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 16.3px;
+    padding-top: 16.3px; */
+    padding: 19px 25px;
+    
+
+}
+
+.ans{
+    /* border: 1px solid #B49BC8; */
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 35px;
+    
+}
+
+.both[open] .que{
+    margin-bottom: 15px;
+}
+
+#ans1{
+    line-height: 25px;
+}
+
+.both[open] .que span{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.ans u{
+    cursor: pointer;
+}
+
+.que:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: #f5f5f5;
+}
+
+
+#footer{
+    /* border: 2px solid blue; */
+    height: 546px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    align-items: center;
+    background-color: black;
+    color: #fff;
+}    
+
+#sub{
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 1085px;
+    position: relative;
+    top: 76px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+#sub span svg{
+    height: 33px;
+    width: 118px;
+    fill: #fff;
+}
+
+#foot{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    width: 630px;
+    
+    
+}
+
+#foot ol{
+    /* border: 2px solid magenta; */
+    list-style: none;
+    padding: 0px;
+    line-height: 36px;
+    
+}
+
+.nlh{
+    line-height: 24px;
+}
+
+#foot+div{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#foot+div button{
+    height: 54px;
+    width: 54px;
+    background-color: #222326;
+    border: none;
+    border-radius: 100%;
+}
+
+#foot+div button i{
+    font-size: 24px;
+    color: #fff;
+}
+
+.headd{
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+#sub1{
+    /* border: 2px solid white; */
+    /* display: flex; */
+    position: relative;
+    top: 200px  ;
+    width: 100%;
+}
+
+#sub1 ol{
+    /* border: 2px solid green; */
+    list-style: none;
+    display: flex;
+    width: 520px;
+    justify-content: space-between;
+    position: relative;
+    left: 200px;
+    top: 11px;
+}
+
+#sub1 ol li{
+    font-size: 13px;
+    text-transform: capitalize;
+    color: #919496;
+}
+
+#sub1 div{
+    font-size: 13px;
+    color: #919496;
+    position: absolute;
+    left: 1220px;
+    bottom: 30px;
+}
+
+#sub1 div+div{
+    bottom: 0px;
+}
+
+
+#sub svg:hover{
+    cursor: pointer;
+}
+
+#foot ol:hover{
+    cursor: pointer;
+}
+
+.headd:hover{
+    cursor: text;
+}
+
+#foot ol li+li:hover{
+    color: #1ed760;
+}
+
+#foot+div button:hover{
+    cursor: pointer;
+}
+
+#sub1 ol:hover{
+    cursor: pointer;
+}
+
+#sub1 ol li:hover{
+    color: #1ed760;
+}
+
+#temp:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
+
+#temp i{
+    color: #919496;
+}
+
+#demo{
+    list-style: none;
+}
