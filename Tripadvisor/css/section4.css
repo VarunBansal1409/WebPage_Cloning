@@ -1,0 +1,77 @@
+#section4{
+    border: 1px solid rgb(250, 247, 247);
+    height: 550px;
+    width: 75%;
+    margin: auto;
+    margin-top: 60px;
+    /* background-image: url(../media/caption1); */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url(../media/caption1);
+     background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    border-radius: 10px;
+    /* border: transparent; */
+}
+#section4 h1{
+    font-size: 35px;
+    color: #fff;
+    margin-top: 350px;
+    margin-left: 20px;
+}
+#section4 p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+#section4 button{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 50px;
+    width: 170px;
+    font-size: 15px;
+    border-radius: 50px;
+    border: none;
+}
+
+#section5{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    background-color: #f7f7f7;
+}
+#section5 h3{
+    font-size: 20px;
+    color: #002B11;
+}
+#section5 #images img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+#section5 #images{
+    display: flex;
+    display: grid;
+    grid-template-rows: 233px;
+    grid-template-columns: 367px 367px 367px;
+    gap: 15px;
+    margin-top: 20px;
+}
+#section5 #text{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#section5 #text span{
+    /* border: 1px solid black; */
+    width: 35%;
+    text-align: center;
+    font-size: 16px;
+    color: #002B11;
+    font-weight: 600;
+}

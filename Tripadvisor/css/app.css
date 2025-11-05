@@ -1,0 +1,202 @@
+@import url(./section2.css);
+@import url(./section4.css);
+@import url(./section6.css);
+@import url(./section7.css);
+@import url(./footer.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Trip Sans VF","Trip Sans",arial,sans-serif;
+}
+#section1{
+    /* border: 1px solid black; */
+    height: 130vh;
+    width: 100%;
+}
+#section1 #nav{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 100%;
+    margin-top: 5px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+#section1 #nav #sub-nav{
+    /* border: 1px solid blue; */
+    height: inherit;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#sub-nav img{
+    height: 60px;
+    width: 188px;
+}
+#sub-nav ol{
+    /* border: 1px solid red; */
+    height: inherit;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sub-nav ol li{
+    list-style: none;
+    font-size: 15px;
+    color: #002B11;
+    font-weight: 550;
+}
+#sub-nav ol+div{
+    /* border: 1px solid red; */
+    height: inherit;
+    width: 16%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ol+div span{
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 12px;
+    color: #002B11;
+    height: 40px;
+    width: 90px;
+    font-size: 14px;
+    font-weight: 550;
+    border-radius: 50px;
+}
+ol+div span:hover{
+    cursor: pointer;
+    background-color: #bdbaba67;
+}
+ol+div button{
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    border-radius: 50px;
+    background-color: #002B11;
+    color: #fff;
+    border: none;
+    font-weight: 550;
+}
+#section1 h1{
+    color: #002B11;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+#section1 h1+div{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 52%;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#section1 h1+div span{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+    height: 40px;
+    font-weight: 600;
+    color: #002B11;
+}
+#section1 h1+div span:hover{
+    cursor: pointer;
+}
+#section1 #search{
+    border: 2px solid rgba(128, 128, 128, 0.342);
+    height: 55px;
+    width: 52%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search svg{
+    margin-left: 20px;
+}
+#search input{
+    height: 40px;
+    width: 80%;
+    font-size: 15px;
+    border: none;
+}
+#search button{
+    height: 45px;
+    width: 95px;
+    border-radius: 50px;
+    border: #00ab42;
+    background-color: #00eb5b;
+    font-size: 15px;
+    font-weight: 550;
+    color: #002B11;
+    margin-right: 5px;
+}
+#section1 #text1{
+    /* border: 1px solid black; */
+    height: 430px;
+    width: 75%;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00eb5b;
+    border-radius: 10px;
+}
+#section1 #text1 div{
+    /* border: 1px solid red; */
+    height: 390px;
+    width: 47%;
+    margin-left: 20px;
+}
+#text1 div img{
+    height: inherit;
+    width: 560px;
+    border-radius: 10px;
+}
+#section1 #text1 div+div{
+    text-align: center;
+    border-left: 1px solid #000;
+}
+#section1 #text1 div+div h1{
+    line-height: 40px;
+}
+#section1 #text1 div+div p{
+    margin-top: 40px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+#section1 #text1 div+div button{
+    height: 40px;
+    width: 110px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: #002B11;
+    color: #fff;
+    border: none;
+    margin-top: 30px;
+}
+#section1 #text hr{
+    transform: rotate(90deg);
+}
+#section1 #text1 div+div span svg{
+    margin-top: 75px;
+    margin-left: 460px;
+}
