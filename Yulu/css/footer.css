@@ -1,0 +1,87 @@
+footer{
+    border: 1px solid black;
+    height: 723px;
+    width: 100%;
+    background-color: #071228;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+footer #footer{
+    /* border: 1px solid red; */
+    height: 580px;
+    width: 70%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    color: #949cab;
+    font-size: 18px;
+}
+footer #footer #f01 img{
+    height: 50px;
+}
+footer #footer #f02,#f03,#f04{
+    /* border: 1px solid blue; */
+    list-style: none;
+}
+footer #footer #f02 li+li{
+    margin-top: 18px;
+}
+footer #footer #f03 li+li{
+    margin-top: 18px;
+}
+footer #footer #f04 li+li{
+    margin-top: 18px;
+}
+footer #footer #f04 li+li+li{
+    margin-top: 8px;
+}
+footer #footer #f05{
+    /* border: 1px solid blue; */
+    height: 180px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+footer #footer #f05 #img{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+} 
+footer #footer #f05 #icons{
+    /* border: 1px solid red; */
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+footer #footer #f03 li:first-child{
+    color: #546477;
+}
+footer #footer #f04 li:first-child{
+    color: #546477;
+}
+footer #footer #f05 p{
+    color: #546477;
+}
+footer h6{
+    margin-left: 120px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #546477;
+    font-weight: 400;
+}
+footer hr{
+    opacity: 0.1;
+}
+footer #footer #f02 li:hover{
+    cursor: pointer;
+}
+footer #footer #f03 li+li:hover{
+    cursor: pointer;
+}
+footer #footer #f05 img:hover{
+    cursor: pointer;
+}
+footer #footer #f05 #icons img:hover{
+    cursor: pointer;
+}

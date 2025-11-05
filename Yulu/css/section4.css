@@ -1,0 +1,124 @@
+#section4{
+    /* border: 1px solid black; */
+    height: 943px;
+    width: 100%;
+}
+#section4 h1{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    top: 70px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+#section4 #news{
+    /* border: 1px solid black; */
+    height: 612px;
+    width: 75%;
+    margin: auto;
+    margin-top: 140px;
+    overflow: scroll;
+    display: flex;
+}
+#section4 #news div{
+    /* border: 1px solid red; */
+    width: 360px;
+    margin-left: 30px;
+}
+#section4 #news #im01 img{
+    height: 250px;
+    width: 360px;
+}
+#section4 #news #im02 img{
+    height: 200px;
+    width: 360px;
+}
+#section4 #news #im03 img{
+    height: 240px;
+    width: 360px;
+}
+#section4 #news #im04 img{
+    height: 210px;
+    width: 360px;
+}
+#section4 #news #im05 img{
+    height: 240px;
+    width: 360px;
+}
+#section4 #news #im06 img{
+    height: 200px;
+    width: 360px;
+}
+#section4 #news #im07 img{
+    height: 170px;
+    width: 360px;
+}
+#section4 #news #im08 img{
+    height: 200px;
+    width: 360px;
+}
+#section4 #news #im09 img{
+    height: 180px;
+    width: 360px;
+}
+#section4 #news #im10 img{
+    height: 220px;
+    width: 360px;
+}
+#section4 #news #content2{
+    height: 250px;
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#section4 #news #im02 #content2{
+    height: 290px;
+}
+#section4 #news #im03 #content2{
+    height: 290px;
+}
+#section4 #news #im04 #content2{
+    height: 320px;
+}
+#section4 #news #im05 #content2{
+    height: 270px;
+}
+#section4 #news #im06 #content2{
+    height: 320px;
+}
+#section4 #news #im07 #content2{
+    height: 300px;
+}
+#section4 #news #im08 #content2{
+    height: 250px;
+}
+#section4 #news #im09 #content2{
+    height: 280px;
+}
+#section4 #news #im10 #content2{
+    height: 260px;
+}
+#section4 #news small{
+    font-size: 12px;
+    color: #6c757d;
+}
+#section4 #news h5{
+    font-size: 20px;
+    color: #333;
+}
+#section4 #news p{
+    font-size: 15px;
+    color: #2a2e33;
+    font-weight: 400;
+    line-height: 1.5;
+}
+#section4 #news div:hover{
+    cursor: pointer;
+}
