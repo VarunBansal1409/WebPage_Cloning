@@ -1,19 +1,15 @@
 footer{
-    /* border: 1px solid black; */
-    /* height: 20vh; */
     width: 100%;
     margin-top: 20px;    
     background-color: #f7f7f7;
 }
 footer #text{
-    /* border: 1px solid red; */
     height: 300px;
     width: 75%;
     margin: auto;
     display: flex;
 }
 footer #text #text1{
-   /* border: 1px solid blue; */
    height: 210px;
    width: 50%;
    margin-top: 40px;
@@ -21,14 +17,12 @@ footer #text #text1{
    justify-content: space-between;
 }
 footer #text #text2{
-    /* border: 1px solid blue; */
     height: 100px;
     width: 30%;
     margin-left: 180px;
     margin-top: 90px;
 }
 footer #text #text1 ol{
-    /* border: 1px solid red; */
     height: inherit;
     width: 150px;
     display: flex;
@@ -64,7 +58,6 @@ footer #text #text2 p+p{
 }
 
 #footer1{
-    /* border: 1px solid black; */
     height: 180px;
     width: 75%;
     margin: auto;
@@ -77,7 +70,6 @@ footer #text #text2 p+p{
     width: 40px;
 }
 #footer1 #left{
-    /* border: 1px solid red; */
     height: 180px;
     width: 68%;
 }
@@ -94,7 +86,6 @@ footer #text #text2 p+p{
     margin-top: 5px;
 }
 #footer1 #left #terms{
-    /* border: 1px solid blue; */
     height: 40px;
     width: 90%;
     margin-left: 40px;
@@ -107,7 +98,6 @@ footer #text #text2 p+p{
     text-decoration: underline;
 }
 #footer1 #left p{
-    /* border: 1px solid red; */
     height: 35px;
     width: 100%;
     font-size: 14px;
@@ -123,19 +113,16 @@ footer #text #text2 p+p{
     text-decoration: underline;
 }
 #footer1 #right{
-    /* border: 1px solid red; */
     height: 150px;
     width: 31%;
 }
 #footer1 #right #button1{
-    /* border: 1px solid blue; */
     height: 40px;
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 #footer1 #right #button2{
-    /* border: 1px solid blue; */
     height: 40px;
     width: 80%;
     display: flex;
@@ -154,6 +141,3 @@ footer #text #text2 p+p{
     color: #002B11;
     font-size: 15px;
 }
-
-
-
