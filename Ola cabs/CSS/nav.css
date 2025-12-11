@@ -8,7 +8,7 @@ nav{
 }
 
 #sub-nav{
-    /* border: 2px solid blue; */
+    
     width: 88%;
     height: inherit;
     margin: auto;
@@ -18,13 +18,13 @@ nav{
 }
 
 #sub-nav div:first-child{
-    /* border: 2px solid red; */
+    
     width: 350px;
     display: flex;
 }
 
 #sub-nav ol{
-    /* border: 2px solid wheat; */
+    
     width: inherit;
     display: flex;
     align-items: center;
