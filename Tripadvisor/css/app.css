@@ -12,12 +12,10 @@ body{
     font-family: "Trip Sans VF","Trip Sans",arial,sans-serif;
 }
 #section1{
-    /* border: 1px solid black; */
     height: 130vh;
     width: 100%;
 }
 #section1 #nav{
-    /* border: 1px solid red; */
     height: 60px;
     width: 100%;
     margin-top: 5px;
@@ -27,7 +25,6 @@ body{
     z-index: 1;
 }
 #section1 #nav #sub-nav{
-    /* border: 1px solid blue; */
     height: inherit;
     width: 75%;
     margin: auto;
@@ -39,7 +36,6 @@ body{
     width: 188px;
 }
 #sub-nav ol{
-    /* border: 1px solid red; */
     height: inherit;
     width: 25%;
     display: flex;
@@ -53,7 +49,6 @@ body{
     font-weight: 550;
 }
 #sub-nav ol+div{
-    /* border: 1px solid red; */
     height: inherit;
     width: 16%;
     display: flex;
@@ -61,7 +56,6 @@ body{
     align-items: center;
 }
 ol+div span{
-    /* border: 1px solid black; */
     display: flex;
     text-align: center;
     justify-content: center;
@@ -96,7 +90,6 @@ ol+div button{
     margin-top: 50px;
 }
 #section1 h1+div{
-    /* border: 1px solid red; */
     height: 60px;
     width: 52%;
     margin: auto;
@@ -149,7 +142,6 @@ ol+div button{
     margin-right: 5px;
 }
 #section1 #text1{
-    /* border: 1px solid black; */
     height: 430px;
     width: 75%;
     margin: auto;
@@ -161,7 +153,6 @@ ol+div button{
     border-radius: 10px;
 }
 #section1 #text1 div{
-    /* border: 1px solid red; */
     height: 390px;
     width: 47%;
     margin-left: 20px;
@@ -199,4 +190,267 @@ ol+div button{
 #section1 #text1 div+div span svg{
     margin-top: 75px;
     margin-left: 460px;
+}
+
+@media (max-width: 1200px) {
+    /* Tablet Enhancements */
+    #section1 #nav #sub-nav {
+        width: 95%;
+    }
+    
+    #section1 h1+div {
+        width: 80%;
+    }
+    
+    #section1 #search {
+        width: 80%;
+    }
+    
+    #section1 #text1 {
+        width: 90%;
+        height: auto;
+    }
+    
+    #section1 #text1 div {
+        width: 48%;
+        margin-left: 1%;
+    }
+    
+    #text1 div img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #section1 #text1 div+div {
+        width: 48%;
+    }
+    
+    #section1 #text1 div+div span svg {
+        margin-left: 0;
+        margin-top: 40px;
+        display: block;
+        margin: 40px auto;
+    }
+    
+    #section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #section2 #images, #section3 #images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Section 1 - Nav & Hero */
+    #section1 {
+        height: auto;
+    }
+    
+    #section1 #nav {
+        height: auto;
+        position: static;
+    }
+    
+    #section1 #nav #sub-nav {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 15px;
+    }
+    
+    #sub-nav img {
+        margin: 0 auto;
+    }
+    
+    #sub-nav ol {
+        width: 100%;
+        justify-content: center;
+        gap: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    
+    #sub-nav ol+div {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+        height: auto;
+    }
+    
+    #section1 h1 {
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    
+    #section1 h1+div {
+        width: 100%;
+        overflow-x: auto;
+        justify-content: start;
+        gap: 20px;
+        padding: 10px;
+    }
+    
+    #section1 #search {
+        width: 90%;
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    #search input {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #search button {
+        width: 100%;
+        margin-right: 0;
+    }
+    
+    #section1 #text1 {
+        width: 95%;
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    #section1 #text1 div {
+        width: 90%;
+        margin: 0 auto 20px auto;
+        height: auto;
+    }
+    
+    #text1 div img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #section1 #text1 div+div {
+        border-left: none;
+        padding-top: 20px;
+        width: 90%;
+        margin: auto;
+    }
+    
+    #section1 #text1 div+div span svg {
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* General Sections Overrides */
+    #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10 {
+        width: 95%;
+        margin: 20px auto;
+        height: auto;
+    }
+    
+    #section2 #images, #section3 #images, #section5 #images, #section6 #images, #section7 #images, #section10 #images {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    #section2 #images img, #section3 #images img, #section5 #images img, #section6 #images img, #section7 #images img, #section10 #images img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #section3 #text, #section6 #text, #section10 #text {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+    
+    #section3 #text div, #section6 #text div {
+        width: 100%;
+        height: auto;
+    }
+    
+    #section8 {
+        flex-direction: column;
+    }
+    
+    #section8 img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #text3, #text4 {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    #section9 {
+        flex-direction: column-reverse;
+    }
+    
+    #section9 img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    footer {
+        height: auto;
+    }
+    
+    footer #text {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        width: 100%;
+    }
+    
+    footer #text #text1 {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+    
+    footer #text #text1 ol {
+        width: 100%;
+        height: auto;
+    }
+    
+    footer #text #text2 {
+        width: 100%;
+        margin: 20px 0;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    #footer1 {
+        flex-direction: column;
+        height: auto;
+        width: 95%;
+    }
+    
+    #footer1 #left {
+        width: 100%;
+        height: auto;
+    }
+    
+    #footer1 #right {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+    
+    #footer1 #right #button2 {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+        gap: 20px;
+    }
 }
