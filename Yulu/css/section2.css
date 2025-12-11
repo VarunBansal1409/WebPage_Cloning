@@ -1,5 +1,4 @@
 #section2{
-    /* border: 1px solid black; */
     height: 849px;
     width: 100%;
     margin-top: 787px;
@@ -7,7 +6,6 @@
     flex: 1;
 }
 #section2 div{
-    /* border: 1px solid red; */
     height: inherit;
     margin: auto;
     overflow: hidden;
@@ -32,7 +30,6 @@
     right: 90px;
 }
 #section2 div table{
-    /* border: 1px solid black; */
     width: 400px;
     height: 700px;
     margin-left: 60px;
@@ -61,5 +58,3 @@
 #section2 table tr td h2:hover{
     color: #00dcf7;
 }
-
-
