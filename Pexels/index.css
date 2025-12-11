@@ -17,12 +17,12 @@ main{
 }
 
 #nav{
-    /* border: 2px solid; */
+    
     height: 80px;
 }
 
 #sub-nav{
-    /* border: 2px solid; */
+    
     height: inherit;
     width: 96.5%;
     margin: auto;
@@ -38,7 +38,7 @@ main{
 #sub-nav div{
     width: 368px;
     height: 48px;
-    /* border: 2px solid #fff; */
+    
     display: flex;
     justify-content: space-between;
 }
@@ -98,7 +98,7 @@ main{
 }
 
 #content{
-    /* border: 2px solid; */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +113,7 @@ main{
 }
 
 #content div{
-    /* border: 2px solid; */
+    
     height: 56px;
     width: 630px;
     border-radius: 10px;
@@ -187,7 +187,7 @@ main{
 
 
 #opt{
-    /* border: 2px solid; */
+    
     height: 108px;
     display: flex;
     justify-content: center;
@@ -221,7 +221,7 @@ main{
 }
 
 #fsp{
-    /* border: 2px solid; */
+    
     height: 48px;
     width: 96%;
     margin: auto;
@@ -290,4 +290,153 @@ main{
     grid-template-columns: 471px;
     grid-template-rows: 589px 717px 707px 707px 838px;
     grid-row-gap: 30px;
+}
+
+@media (max-width: 1024px) {
+    
+    #content div {
+        width: 90%;
+    }
+    
+    #content div input {
+        width: 60%;
+    }
+    
+    #gallery {
+        padding: 0 20px;
+        gap: 15px;
+    }
+    
+    #gallery1, #gallery2, #gallery3 {
+        display: flex;
+        flex-direction: column;
+        width: 32%; 
+        grid-template-columns: none;
+        grid-template-rows: none;
+        gap: 15px;
+    }
+    
+    #gallery img {
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 15px;
+    }
+    
+    #sub-nav {
+        width: 95%;
+    }
+    
+    #sub-nav div {
+        width: auto;
+        gap: 10px;
+    }
+    
+    #sub-nav div button span {
+        display: none; 
+    }
+    
+    #sub-nav div button i {
+        margin: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    #nav {
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    #sub-nav {
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    #sub-nav div {
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    
+    #sub-nav div button span {
+        display: inline; 
+    }
+    
+    main {
+        height: auto;
+        padding-bottom: 40px;
+        background-position: center;
+    }
+    
+    #content {
+        height: auto;
+        padding: 40px 0;
+    }
+    
+    #content h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 0 15px;
+        line-height: 1.4;
+    }
+    
+    #content div {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+        gap: 10px;
+    }
+    
+    #content div input {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #photos {
+        width: 100%;
+    }
+    
+    #qwe {
+        width: 100%;
+    }
+    
+    #opt {
+        height: auto;
+        flex-wrap: wrap;
+        padding: 20px 10px;
+    }
+    
+    #fsp {
+        height: auto;
+        width: 90%;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    #gallery {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #gallery1, #gallery2, #gallery3 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        margin-bottom: 20px;
+    }
+    
+    #gallery img {
+        height: auto;
+        width: 100%;
+    }
 }
