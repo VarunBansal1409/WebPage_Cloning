@@ -1,5 +1,5 @@
 #section{
-    /* border: 2px solid; */
+    
     margin: auto;
     margin-top: 7px;
     width: 88%;
@@ -78,7 +78,7 @@
     width: 260px;
     background-color: #ffbade;
     font-size: 20px;
-    /* padding: 17px 47px; */
+    
     border-radius: 12px;
     border: none;
     font-weight: 600;
@@ -90,7 +90,7 @@
 }
 
 #bg{
-    /* border: 2px solid; */
+    
     height: inherit;
     width: 44%;
     position: absolute;
@@ -106,14 +106,14 @@
 }
 
 #share , #share+p{
-    /* border: 2px solid; */
+    
     margin-left: 11.3%;
 }
 
 #share{
     font-weight: 600;
     font-size: 14px;
-        color: #ffbade;
+    color: #ffbade;
     font-family: "Poppins", Arial;
     margin-top: 40px;
 }
@@ -123,4 +123,70 @@
     color: #ccc;
     font-weight: 400;
     line-height: 22px;
+}
+
+@media (max-width: 1200px) {
+    #section {
+        width: 95%;
+        padding: 60px;
+    }
+    
+    #bg {
+        width: 50%;
+        right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    #section {
+        height: auto;
+        gap: 40px;
+    }
+    
+    #bg {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        top: 0;
+        right: 0;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #section {
+        width: 95%;
+        height: auto;
+        padding: 30px 20px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+    
+    #section input {
+        width: 100%; 
+    }
+    
+    #inb {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    #bg {
+        display: none; 
+    }
+    
+    #share, #share+p {
+        margin-left: 10px;
+    }
+    
+    #inb+div+button {
+        width: 100%;
+    }
+    
+    #section img {
+        margin-bottom: 20px;
+        width: auto;
+        height: 35px;
+    }
 }
