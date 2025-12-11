@@ -1,9 +1,7 @@
 #section2{
-    /* border: 1px solid black; */
     height: 400px;
     width: 75%;
     margin: auto;
-    /* margin-top: 50px; */
 }
 #section2 h1{
     font-size: 20px;
@@ -20,7 +18,6 @@
     border-radius: 10px;
 }
 #section2 #images{
-    /* border: 1px solid red; */
     margin-top: 20px;
     gap: 15px;
     display: grid;
@@ -29,7 +26,6 @@
 }
 
 #section3{
-    /* border: 1px solid black; */
     height: 490px;
     width: 75%;
     margin: auto;
@@ -50,7 +46,6 @@
     border-radius: 10px;
 }
 #section3 #images{
-    /* border: 1px solid red; */
     margin-top: 20px;
     gap: 15px;
     display: grid;
@@ -58,7 +53,6 @@
     grid-template-columns: 272px 272px 272px 272px;
 }
 #section3 #text{
-    /* border: 1px solid red; */
     height: 140px;
     width: 100%;
     margin: auto;
@@ -68,7 +62,6 @@
     align-items: center;
 }
 #section3 #text div{
-    /* border: 1px solid blue; */
     height: inherit;
     width: 24%;
 }
