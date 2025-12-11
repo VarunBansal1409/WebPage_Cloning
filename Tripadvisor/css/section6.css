@@ -1,5 +1,4 @@
 #section6{
-    /* border: 1px solid black; */
     height: 490px;
     width: 75%;
     margin: auto;
@@ -20,7 +19,6 @@
     border-radius: 10px;
 }
 #section6 #images{
-    /* border: 1px solid red; */
     margin-top: 20px;
     gap: 15px;
     display: grid;
@@ -28,7 +26,6 @@
     grid-template-columns: 272px 272px 272px 272px;
 }
 #section6 #text{
-    /* border: 1px solid red; */
     height: 120px;
     width: 100%;
     margin: auto;
@@ -38,7 +35,6 @@
     align-items: center;
 }
 #section6 #text div{
-    /* border: 1px solid blue; */
     height: inherit;
     width: 24%;
 }
