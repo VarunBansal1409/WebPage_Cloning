@@ -6,7 +6,6 @@ footer{
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 footer #footer{
-    /* border: 1px solid red; */
     height: 580px;
     width: 70%;
     margin: auto;
@@ -20,7 +19,6 @@ footer #footer #f01 img{
     height: 50px;
 }
 footer #footer #f02,#f03,#f04{
-    /* border: 1px solid blue; */
     list-style: none;
 }
 footer #footer #f02 li+li{
@@ -36,7 +34,6 @@ footer #footer #f04 li+li+li{
     margin-top: 8px;
 }
 footer #footer #f05{
-    /* border: 1px solid blue; */
     height: 180px;
     width: 350px;
     display: flex;
@@ -44,12 +41,10 @@ footer #footer #f05{
     justify-content: space-between;
 }
 footer #footer #f05 #img{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
 } 
 footer #footer #f05 #icons{
-    /* border: 1px solid red; */
     width: 50%;
     display: flex;
     justify-content: space-between;
