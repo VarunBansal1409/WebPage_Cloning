@@ -9,7 +9,7 @@ body{
 }
 
 #nav{
-    /* border: 2px solid; */
+    
     height: 520px;
 }
 
@@ -33,7 +33,7 @@ body{
     left: 0;
     width: 100%;
     height: 520px;
-    /* background-image: url(https://i.redd.it/k1ac1xpb31wy.png); */
+    
     background-size: cover;
     background-position: center;
     z-index: -1;
@@ -42,13 +42,13 @@ body{
 }
 
 #sub-nav{
-    /* border: 2px solid blue; */
+    
     width: 96%;
     margin: auto;
     height: 70px;
 }
 #sub-nav div svg{
-    /* border: 2px solid red; */
+    
     height: 32px;
     width: 116.36px;
     position: absolute;
@@ -62,14 +62,14 @@ body{
 }
 
 #sub-nav div + div{
-    /* border: 2px solid  rebeccapurple; */
+    
     width: auto;
     position: absolute;
     right: 35px;
     height: 70px;
     padding-top: 10px;
     word-spacing: 10px;
-    /* background-color: rgba(255,255,255,.88); */
+    
 }
 
 #sub-nav div > button{
@@ -121,7 +121,7 @@ body{
 }
 
 #content h1+div{
-    /* border: 2px solid green; */
+    
     position: relative;
     top: 90px;
     left: 420px;
@@ -289,7 +289,7 @@ body{
 }
 
 #opt{
-    /* border: 2px solid; */
+    
     display: flex;
     width: 96%;
     margin: auto;
@@ -313,7 +313,7 @@ body{
     align-items: center;
     justify-content: space-around;
     border-radius: 100px;
-    /* border: 2px solid; */
+    
     width: 314px;
 }
 
@@ -323,7 +323,7 @@ body{
     font-size: 15px;
     color: #191b26;
     background-color: #fff;
-    /* border: 2px solid; */
+    
     font-weight: 500;
     border-radius: 100px;
 }
@@ -391,7 +391,7 @@ body{
 
 
 #login-info{
-    /* border: 2px solid; */
+    
     /* position: absolute  ;
     top: 35px;
     left: 500px; */
@@ -417,7 +417,7 @@ body{
 }
 
 #login-nav{
-    /* border: 2px solid; */
+    
     height: 56px;
     width: inherit;
     background-color: #191b26;
@@ -523,4 +523,219 @@ body{
 
 .fa-solid:hover{
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    
+    #content h1 {
+        position: static;
+        margin-top: 100px; 
+        margin-bottom: 20px;
+        top: 0;
+    }
+    
+    #content h1+div {
+        position: static;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 30px;
+        left: 0; top: 0;
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+    }
+    
+    #content input {
+        position: static;
+        width: 70%;
+        margin: 0 auto 20px auto;
+        display: block;
+        top: 0; left: 0;
+    }
+    
+    #content span {
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        top: 0; left: 0;
+    }
+    
+    #para1, #para2 {
+        position: static;
+        text-align: center;
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    #gallery {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 20px;
+    }
+    
+    #gallery1, #gallery2, #gallery3, #gallery4 {
+        display: flex;
+        flex-direction: column;
+        width: 23%; 
+        grid-template-columns: none;
+        grid-template-rows: none;
+        gap: 20px;
+    }
+    
+    #gallery img {
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+    
+    #sub-nav {
+        width: 98%;
+    }
+}
+
+@media (max-width: 992px) {
+    #gallery1, #gallery2, #gallery3, #gallery4 {
+        width: 48%; 
+    }
+    
+    #gallery {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    #nav {
+        height: auto;
+        min-height: 100vh;
+        padding-bottom: 40px;
+    }
+    
+    #bg, #backg {
+        height: 100%;
+        position: absolute;
+    }
+    
+    #sub-nav {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        position: relative;
+    }
+    
+    #sub-nav div svg {
+        position: static;
+        display: block;
+        margin: 0 auto 15px auto;
+    }
+    
+    #sub-nav div + div {
+        position: static;
+        width: 100%;
+        text-align: center;
+        height: auto;
+        padding-top: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        word-spacing: normal;
+    }
+    
+    #content h1 {
+        position: static;
+        font-size: 24px;
+        padding: 0 15px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        top: 0;
+    }
+    
+    #content h1+div {
+        position: static;
+        width: 100%;
+        flex-wrap: wrap;
+        height: auto;
+        justify-content: center;
+        left: 0;
+        top: 0;
+        gap: 10px;
+        padding: 0 10px;
+    }
+    
+    #content div button {
+        margin: 5px;
+    }
+    
+    #content input {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+        top: 0; left: 0;
+    }
+    
+    #content span {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        word-spacing: normal;
+        top: 0; left: 0;
+    }
+    
+    #content span > button {
+        margin: 0;
+    }
+    
+    #para1, #para2 {
+        position: static;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        top: 0; left: 0; right: 0;
+    }
+    
+    #opt {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        text-align: center;
+        padding: 20px 10px;
+    }
+    
+    #opt div {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 10px;
+        height: auto;
+    }
+    
+    #gallery {
+        flex-direction: column;
+        top: 0;
+        padding: 10px;
+        gap: 20px;
+    }
+    
+    #gallery1, #gallery2, #gallery3, #gallery4 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+        grid-template-columns: none;
+        grid-template-rows: none;
+    }
+    
+    #gallery img {
+        width: 100%;
+        height: auto;
+    }
 }
