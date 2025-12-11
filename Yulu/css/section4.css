@@ -1,10 +1,8 @@
 #section4{
-    /* border: 1px solid black; */
     height: 943px;
     width: 100%;
 }
 #section4 h1{
-    /* border: 1px solid black; */
     height: 50px;
     width: 80%;
     margin: auto;
@@ -15,7 +13,6 @@
     justify-content: center;
 }
 #section4 #news{
-    /* border: 1px solid black; */
     height: 612px;
     width: 75%;
     margin: auto;
@@ -24,7 +21,6 @@
     display: flex;
 }
 #section4 #news div{
-    /* border: 1px solid red; */
     width: 360px;
     margin-left: 30px;
 }
