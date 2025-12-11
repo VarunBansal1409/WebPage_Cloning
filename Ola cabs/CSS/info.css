@@ -33,7 +33,7 @@
 
 #minfo div div{
     display: flex;
-    /* align-items: center; */
+    
     gap: 10px;
 }
 
@@ -161,4 +161,3 @@
     color: #16aa51;
     cursor: pointer;
 }
-
