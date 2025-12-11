@@ -5,7 +5,7 @@
 }
 
 #upper-page{
-    /* border: 2px solid; */
+    
     height: 72.8vh;
     background-color: #2c2f3a;
 }
@@ -14,7 +14,7 @@
     font-size: 51px;
     color: #fff;
     line-height: 1;
-    /* margin-top: 20px; */
+    
 }
 
 #upper-page h1+div:nth-child(2){
@@ -26,7 +26,7 @@
 }
 
 #afeedback{
-    /* border: 2px solid; */
+    
     position: relative;
     top: 15px;
     left: 190px;
@@ -34,7 +34,7 @@
 }
 
 #feedback{
-    /* border: 2px solid; */
+    
     height: 500px;
     width: 75.8%;
     margin: auto;
@@ -60,7 +60,7 @@
   gap: 13px;
   position: relative;
   top: 92px;
-  /* right: 100px; */
+  
   left: 43px;
 }
 
@@ -79,7 +79,7 @@
     width: 100%;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    /* background-image: linear-gradient(rgba(136, 135, 135, 0.134)), url(../Images/customer-4.png); */
+    
     position: relative;
     z-index: 10;
 }
@@ -132,7 +132,7 @@
 }
 
 #newsc div{
-    /* border: 2px solid; */
+    
     height: 180px;
     width: 288px;
     padding: 20px;
