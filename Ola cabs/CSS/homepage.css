@@ -45,7 +45,7 @@
 }
 
 #location{
-    /* border: 2px solid green; */
+    
     width: 67.4%;
     height: 104px;
     margin: auto;
@@ -153,5 +153,3 @@
 #search img{
     margin: 0 8px 0 60px;
 }
-
-
