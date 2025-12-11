@@ -35,14 +35,12 @@ body{
     height: 100%;
 }
 #nav{
-    /* border: 1px solid red; */
     height: 60px;
     width: 100%;
     display: flex;
     justify-content: end;
 }
 #sub-nav{
-    /* border: 1px solid blue; */
     height: 60px;
     width: 86%;
     display: flex;
@@ -58,7 +56,6 @@ body{
     cursor: pointer;
 }
 #nav-content{
-    /* border: 1px solid black; */
     width: 67%;
     padding-top: 10px;
     color: #fff;
@@ -69,7 +66,6 @@ body{
     font-weight: 600;
 }
 #nav-content div{
-    /* border: 1px solid red; */
     height: 85px;
     width: 110px;
     background-color: #00dcf7;
@@ -87,7 +83,6 @@ body{
     font-weight: 600;
 }
 #middlecontent{
-    /* border: 1px solid red; */
     height: 310px;
     width: 70%;
     margin-top: 270px;
@@ -135,4 +130,234 @@ body{
 }
 #nav-content div span:hover{
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    /* Tablet/Laptop Enhancements */
+    #middlecontent {
+        margin-left: 5%;
+        margin-top: 15%;
+        width: 60%;
+    }
+    
+    #middlecontent h1 {
+        font-size: 50px;
+        line-height: normal;
+    }
+    
+    #section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #section2 > div:last-child {
+        display: none; /* Hide decorative side image if it overlaps text */
+    }
+    
+    #news {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    #content1 {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Section 1 */
+    #section1 {
+        height: auto;
+    }
+    
+    #video {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+    }
+    
+    #content {
+        position: relative;
+        height: auto;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,0.5); /* Add overlay for readability */
+    }
+    
+    #nav {
+        height: auto;
+        justify-content: center;
+    }
+    
+    #sub-nav {
+        width: 100%;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    #sub-nav img {
+        margin: 0;
+    }
+    
+    #nav-content {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        height: auto;
+    }
+    
+    #nav-content div {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        gap: 10px;
+        padding: 10px;
+    }
+    
+    #middlecontent {
+        width: 90%;
+        margin: 50px auto 30px auto;
+        height: auto;
+        text-align: center;
+        position: static;
+        line-height: normal;
+    }
+    
+    #middlecontent h1 {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    
+    #middlecontent p {
+        position: static;
+        margin-bottom: 20px;
+    }
+    
+    #middlecontent button {
+        margin: 0 auto;
+    }
+
+    /* Section 2 */
+    #section2 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    #section2 > div {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    #section2 > div:last-child {
+        display: block; /* Restore for mobile if it stacks nicely at bottom */
+        order: 3;
+    }
+    
+    #section2 table {
+        display: block;
+        width: 100%;
+    }
+    
+    #section2 tbody {
+        display: block;
+        width: 100%;
+    }
+    
+    #section2 tr {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #section2 td {
+        display: block;
+        width: 100%;
+    }
+    
+    #section2 td img {
+        margin: 0 auto 15px auto;
+    }
+
+    /* Section 3 */
+    #section3 {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    #content1 {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    #nav1 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    #content1 svg {
+        display: none;
+    }
+    
+    #content1 img {
+        position: static;
+        width: 100%;
+        height: auto;
+    }
+    
+    /* Section 4 */
+    #section4 {
+        height: auto;
+        padding: 20px 0;
+    }
+    
+    #news {
+        grid-template-columns: 1fr;
+        width: 90%;
+        gap: 20px;
+    }
+    
+    #im01, #im02, #im03, #im04, #im05, #im06, #im07, #im08, #im09, #im10 {
+        width: 100%;
+    }
+
+    /* Footer */
+    #footer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    #f01, #f02, #f03, #f04, #f05 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #f02, #f03 {
+        height: auto;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    #f05 #img, #f05 #icons {
+        justify-content: center;
+    }
 }
