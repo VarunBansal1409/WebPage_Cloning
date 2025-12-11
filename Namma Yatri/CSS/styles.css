@@ -21,3 +21,176 @@ body{
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+
+@media (max-width: 1024px) {
+    
+    #p1c {
+        width: 100%;
+        padding: 0 5%;
+    }
+    
+    #p1c img {
+        right: 0;
+        width: 45%;
+        height: auto;
+    }
+    
+    #p1c > div:first-child {
+        width: 50%;
+    }
+    
+    #mdata {
+        width: 90%;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    #page7 ol {
+        width: 95%;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    #page1, #page2, #page3, #page4, #page5, #page6, #page7, #page8, #page9, #page10, #page11 {
+        height: auto;
+        min-height: 100vh;
+        padding: 40px 0;
+        background-size: cover;
+    }
+
+    
+    #nav {
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    #sub-nav {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    #sub-nav ol {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #mdata {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        gap: 10px;
+        text-align: center;
+    }
+
+    #p1c {
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 40px;
+        text-align: center;
+        align-items: center;
+        padding: 0;
+    }
+    
+    #p1c img {
+        position: static;
+        width: 80%;
+        max-width: 300px;
+        margin: auto;
+        height: auto;
+        top: auto; right: auto;
+    }
+    
+    #p1c div:first-child {
+        position: static;
+        align-items: center;
+        width: 90%;
+        padding: 0;
+    }
+    
+    #p1c h1 {
+        font-size: 36px;
+    }
+    
+    #p1c p {
+        font-size: 18px;
+    }
+
+    
+    #page2, #page3, #page4, #page5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #page2 > div, #page3 > div, #page4 > div, #page5 > div {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    
+    #page2 span img, #page3 span img, #page4 span img, #page5 span img {
+        width: 80%;
+        height: auto;
+    }
+
+    
+    #sub-page6 {
+        width: 90%;
+    }
+    
+    #boxes3 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+    #sub-page7 {
+        width: 90%;
+        top: 0;
+    }
+    
+    #page7 ol {
+        flex-direction: column;
+        gap: 40px;
+        padding: 0;
+    }
+
+    
+    #upper-page {
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    #newsinfo, #newsc {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    
+    #logos {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    
+    #footer {
+        height: auto;
+    }
+    
+    #bfoot {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    #bfoot > div {
+        width: 100%;
+        justify-content: center;
+    }
+}
